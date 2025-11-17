@@ -16,17 +16,17 @@ main()
 	freq = 100;
 	while(i < 20)
 	{
-	//Beep(frequência em Hz, duração ms);
+	//Beep(frequÃªncia em Hz, duraÃ§Ã£o ms);
 		Beep(freq, tempo);
 		freq = freq + 100;
 		i++;
 	}
 	while(i >=0)
 	{
-	//Beep(frequência em Hz, duração ms);
+	//Beep(frequÃªncia em Hz, duraÃ§Ã£o ms);
 		Beep(freq, tempo);
 		freq = freq - 100;
-		i--;
+		i++;
 	}
 
 
